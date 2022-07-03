@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+:root{
+	--purple:#814096;
+    --pink:#F83292;
+    --black: black;
+    --gradient:linear-gradient( 90deg, var(--purple), var(--pink));
+}
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none; border: none;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+*::selection{
+	background:#F83292;
+	color: #fff;
+}
+
+.mainpage{
+	height: 5320px;
+	width: 100%;
+	
+}
+header{
+	height: 120px;
+	background: #006E7F;
+	display: flex;
+	align-items: center;
+ 	justify-content: space-between;
+ 	z-index: 1000;
+}
+
+header img{
+	height: 100px;
+	width: 130px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+header .search{
+	
+}
+header .search input{
+	height: 40px;
+	width: 500px;
+	border-radius: 20px;
+	font-size: 26px;
+	color: var( --purple);
+
+}
+header .search  i{
+	color: white;
+	font-size: 26px;
+}
+header .search  i:hover{
+	color: var(--pink);
+}
+
+header .navbar{
+	margin-right: 50px;
+}
+header .navbar a{
+	font-size: 25px;
+	padding-left: 50px;
+	color: #fff;
+}
+header .navbar a:hover{
+	color: #F83292;
+	font-size: 30px;
+	font-weight: bold;
+}
+.home{
+	height: 500px;
+	background: black;
+}
+.home img{
+	height: 500px;
+	width: 100%;
+}
+.about {
+	height: 500px;
+	width: 100%;
+	background: #fff;
+}
+.about h1{
+	text-align: center;
+	padding-top: 20px;
+	color: var(--purple);
+}
+.about h1:hover{
+	color: var(--pink);
+}
+.about .content{
+	display: flex;
+	justify-content: space-between;
+}
+.about .content img{
+	height: 400px;
+	padding-left: 30px;
+	
+}
+.about .content p{
+	padding-left: 80px;
+	padding-right: 10px;
+}
+.movie{
+	height:2000 px;
+	
+
+	 
+}
+.movie h1{
+	text-align: center;
+	padding-top: 10px;
+	color: var(--pink);
+}
+.movie h1:hover{
+	color: var(--purple);
+	font-size: 36px;
+}
+
+.movie .box-container{
+	display: flex;
+
+}
+.movie .box-container .box{
+	flex: 10 10 30px;
+	background: #fff;
+	height: 700px;
+	border-radius: 5px;
+	border: 10px solid rgba(0, 0, 0, .2);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+	margin: 30px;
+	padding-top: 30px ;
+	border-radius: 20px;
+	text-align: center;
+
+
+
+}
+.movie .box-container .box:hover{
+
+ border-color:#fff;
+}
+.movie .box-container .box .Ironman{
+	height: 400px ;
+	width: 300px;
+}
+.movie .box-container .box h3{
+	color: var(--pink);
+	font-size: 24px;
+
+}
+.movie .box-container .box h3:hover{
+	color: var(--purple);
+
+}
+.movie .box-container .box p{
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-top: 5px;
+}
+.movie .box-container .box p strong{
+	
+
+}
+.movie .box-container .box p strong:hover{
+
+	color: red;
+	text-decoration: underline;
+}
+
+.movie .box-container-2 {
+	display: flex;
+	
+
+}
+.movie .box-container-2 .box{
+	flex: 10 10 30px;
+	background: #fff;
+	height:700px;
+	border-radius: 5px;
+	border: 10px solid rgba(0, 0, 0, .2);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+	margin: 30px;
+	padding-top: 30px;
+	border-radius: 20px;
+	text-align: center;
+}
+.movie .box-container-2 .box:hover{
+
+ border-color: white;
+}
+
+
+.movie .box-container-2 .box .Avengers{
+	height: 400px;
+	width: 300px;
+}
+.movie .box-container-2 h3{
+	color: var(--pink);
+	font-size: 24px;
+
+}
+.movie .box-container-2 h3:hover{
+	color: var(--purple);
+}
+.movie .box-container-2 .box p{
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-top: 5px;
+
+}
+.movie .box-container-2 .box p strong{
+	
+
+}
+.movie .box-container-2 .box p strong:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+
+
+.movie .box-container-3 {
+	display: flex;
+	
+
+}
+.movie .box-container-3 .box{
+	flex: 10 10 30px;
+	background: #fff;
+	height: 700px;
+	border-radius: 5px;
+	border: 10px solid rgba(0, 0, 0, .2);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+	margin: 30px;
+	padding-top: 30px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.movie .box-container-3 .box:hover{
+	border-color:white;
+}
+
+.movie .box-container-3 .box .Iron-spider{
+	height: 400px;
+	width: 300px;
+}
+
+.movie .box-container-3 h3{
+	color: var(--pink);
+	font-size: 24px;
+
+}
+.movie .box-container-3 h3:hover{
+	color: var(--purple);
+}
+.movie .box-container-3 .box p{
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-top: 5px;
+	
+}
+.movie .box-container-3 .box p strong{
+	
+
+}
+.movie .box-container-3 .box p strong:hover{
+	color: red;
+	text-decoration: underline;
+
+}
+
+
+.movie .box-container-4{
+	display: flex;
+}
+
+.movie .box-container-4 .box{
+	flex: 10 10 30px;
+	background: #fff;
+	height: 700px;
+	border-radius: 5px;
+	border: 10px solid rgba(0, 0, 0, .2);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+	margin: 30px;
+	padding-top: 30px;
+	border-radius: 20px;
+	text-align: center;
+
+}
+.movie .box-container-4 .box:hover{
+	border-color: #fff;
+}
+
+
+.movie .box-container-4 .box .tony{
+	height: 400px;
+	width: 300px;
+}
+.movie .box-container-4 h3{
+	color: var(--pink);
+	font-size: 24px;
+
+}
+.movie .box-container-4 h3:hover{
+	color: var(--purple);
+}
+.movie .box-container-4 .box p{
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-top: 5px;
+	
+}
+.movie .box-container-4 .box p strong{
+	
+
+}
+.movie .box-container-4 .box p strong:hover{
+	color: red;
+	text-decoration: underline;
+}
+.review{
+	height: 1100px;
+	
+	
+}
+.review h1{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 32px;
+	
+}
+.review h1:hover{
+	font-size: 40px;
+	color: var(--purple);
+}
+.review .review-container{
+	display: flex;
+	
+}
+.review .review-container .box {
+	flex: 10 10 30px;
+	background: #fff;
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	height: 500px;
+	border: 5px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+	border-radius: 20px;
+
+
+
+}
+.review .review-container .box h3{
+	color: var(--pink);
+}
+.review .review-container .box h3:hover{
+	font-size: 24px;
+}
+.review .review-container .box .stars{
+	color: var(--purple);
+
+}.review .review-container .box .stars:hover{
+	color: #FFBF00;
+}
+.review .review-container .box .People-img{
+	height: 300px;
+	width: 300px;
+	border-radius: 60%;
+
+}
+.footer{
+	height: 430px;
+	background: url(../image/footer-bg.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+
+
+
+	
+}
+.footer .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+
+}
+.footer .box-container .box{
+	flex: 10 10 25px;
+	margin-top: 50px;
+	padding-left: 50px;
+}
+.footer .box-container .box h3{
+	font-size: 26px;
+	color: white;
+	text-decoration: underline;
+	text-underline-offset: 10px;
+
+}
+.footer .box-container .box h3:hover{
+
+	font-size: 30px;
+	cursor: pointer;
+
+}
+.footer .box-container .box p{
+	padding-top: 20px;
+	color: #fff;
+
+}
+.footer .box-container .box a{
+	margin-top: 20px;
+	display: block;
+	color: white;
+	font-size: 20px;
+}
+.footer .box-container .box a:hover{
+	text-decoration: underline;
+	text-underline-offset: 5px;
+	font-size: 24px;
+
+}
+.footer .box-container .box .info{
+    display: flex;
+    align-items: center;
+}
+.footer .box-container .box .info i{
+	margin: 5px 0;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+	background: #fff;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 50%;
+
+}
+.footer .credit{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: .5px;
+    color:#fff;
+    border-top: 1px solid #999;
+    padding:2.5rem 1rem;
+    text-align: center;
+}
